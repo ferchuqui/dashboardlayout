@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    padding: 0;
+   
+}
+
+
+.button {
+    background: turquoise;
+    color: white;
+    text-decoration: none;
+    display: block;
+    font-size: 1.25em;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    margin:auto;
+    margin-top: 30px;
+    border-radius:5px;
+    line-height: 50px;
+
+}
+.button:hover{
+    background: cyan;
+}
+
+.dir{
+    display: flex;
+  
+}
+.izquierda{
+    /* display: flex; */
+    width: 50%;
+}
+.derecha{
+    width: 50%;
+    /* float: right; */
+    background: blue;
+    height: 30px;
+    /* margin: 5px; */
+    /* display: flex; */
+}
+.container{
+    justify-content: center;
+    margin: auto;
+    /* text-align: center; */
+    width: 90%;
+    display: flex;
+}
+.appdex{
+    margin-right: 20px;
+}
+.etime{
+    margin-right: 20px;
+}
+.treshold{
+    margin-right: 20px;
+}   
+.wrapper{
+    display: inline-flex;
+}
